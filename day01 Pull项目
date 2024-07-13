@@ -11,5 +11,20 @@
   2.5导入和导出
   2.6文件管理
   2.7配置设置
+3.关于MySQL的基础知识
+    3.1mysql的启动和停止命令
+    以管理员身份运行：
+      > net start mysql
+      > net stop mysql
+    3.2客户端连接
+     >mysql [-h 127.0.0.1] [-p 3306] -u root -p
+    3.3 SQL通用语法
+     单行注释--或#
+      多行注释 /* */
+    3.4 MySQL数据存储
+       多张相互连接的二维表
+    3.5 SQL分类
+        DDL DML DQL DCL
+    
   
  
